@@ -1,12 +1,20 @@
+@font-face {
+    font-family: OpenDyslexic3;
+    src: url(OpenDyslexic\ 3\ \(Beta\ -\ Windows\,\ MacOS\,\ Linux\ TTF\)/OpenDyslexic3-Regular.ttf);   
+}
+@font-face {
+    font-family: OpenDyslexic3-Bold;
+    src: url(OpenDyslexic\ 3\ \(Beta\ -\ Windows\,\ MacOS\,\ Linux\ TTF\)/OpenDyslexic3-Bold.ttf);   
+}
 body {
     background-color: #A0AECD;
     margin: 0 10%;
-    font-family: sans-serif;
+    font-family: OpenDyslexic3;
     }
   h1
   {
     text-align: center;
-    font-family: serif;
+    font-family: OpenDyslexic3-Bold;
     font-weight: normal;
     text-transform: uppercase;
     border-bottom: 1px solid #000000;
@@ -14,12 +22,13 @@ body {
   }
   h2
   {
-    color: #000000;
     font-size: 1em;
+    letter-spacing: .5em;
+    color: rgb(61, 61, 27);
   }
   p
   {
-    color: #000000;
+    color: #162946;
     font-size: 1em;
   }
   picture
@@ -27,3 +36,27 @@ body {
     width: 100%;
     height: auto;
   }
+.footer
+{
+    text-align: center;
+    font-size: 0.8em;
+    color: #162946;
+    margin-top: 30px;
+    border-top: 1px solid #000000;
+    padding-top: 10px;
+}
+.bold
+{
+    font-family: OpenDyslexic3-Bold;
+    font-size: 1.5em;
+}
+#links
+{
+    text-align: left;
+    font-size: 0.8em;
+    color: #162946;
+    margin-top: 30px;
+    border-top: 1px solid #000000;
+    padding-top: 10px;
+    
+}
